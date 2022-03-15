@@ -1,0 +1,6 @@
+all:
+  hosts:
+    0.0.0.0:
+      ansible_ssh_extra_args: -o StrictHostKeyChecking=no
+      ansible_ssh_private_key_file: /home/vagrant/terraform/aws-ec2-web-application/keys/aws_key
+      ansible_user: ubuntu
